@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# SQLite database (local dev data, not for version control)
+backend/leetquest.db
+
+# Environment files
+.env
+.env.local
+
+# Vite build output
+frontend/dist/
+
+# OS junk
+.DS_Store
+Thumbs.db

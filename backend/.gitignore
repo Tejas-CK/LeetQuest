@@ -1,0 +1,4 @@
+node_modules/
+leetquest.db
+data/merged_problems.json
+.env
