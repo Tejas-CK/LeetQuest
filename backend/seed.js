@@ -4,7 +4,7 @@ const path = require('path');
 const db = require('./db');
 
 const DATA_PATH = path.join(__dirname, 'data', 'merged_problems.json');
-const MAX_FRONTEND_ID = 2000; // set to null if you want ALL problems, not just #1-2000
+const MAX_FRONTEND_ID = null; // set to null if you want ALL problems, not just #1-2000
 
 function seed() {
   if (!fs.existsSync(DATA_PATH)) {
